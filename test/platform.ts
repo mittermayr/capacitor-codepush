@@ -112,7 +112,7 @@ export class Android implements IPlatform {
     }
 
     public getPlatformWwwPath(projectDirectory: string): string {
-        return path.join(projectDirectory, "platforms/android/app/src/main/assets/www");
+        return path.join(projectDirectory, "platforms/android/app/src/main/assets/public");
     }
 
     public getEmulatorManager(): IEmulatorManager {
@@ -157,7 +157,7 @@ export class IOS implements IPlatform {
     }
 
     public getPlatformWwwPath(projectDirectory: string): string {
-        return path.join(projectDirectory, "platforms/ios/www");
+        return path.join(projectDirectory, "platforms/ios/public");
     }
 
     public getEmulatorManager(): IEmulatorManager {
