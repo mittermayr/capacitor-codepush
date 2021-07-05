@@ -1,11 +1,11 @@
 {
   "name": "capacitor-codepush",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "CodePush Plugin for Capacitor",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
-  "homepage": "https://github.com/mittermayr/capacitor-codepush",
-  "repository": "github:mittermayr/capacitor-codepush",
+  "homepage": "https://github.com/mapiacompany/capacitor-codepush",
+  "repository": "github:mapiacompany/capacitor-codepush",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
